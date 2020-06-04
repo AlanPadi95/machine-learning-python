@@ -7,7 +7,7 @@ and slowly move into more advanced topics like neural networks.
 This series is packed full of valuable information. 
 You will learn and understand the following after this [tutorial](https://techwithtim.net/tutorials/machine-learning-python/):
 
-* [Linear Regression](#Linear Regression)
+* [Linear Regression](#linear-regression)
 * [K-Nearest Neighbors](#K-Nearest Neighbors)
 * Support Vector Machines
 * K-Means
