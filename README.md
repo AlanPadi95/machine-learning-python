@@ -1,6 +1,12 @@
 # Overview
 This series is designed to teach you the fundamentals of 
-machine learning with python. It will start by introducing some basic machine learning algorithms 
+machine learning with python.
+
+<p align="center">
+  <img src="img/neural-networks.png">
+</p>
+
+It will start by introducing some basic machine learning algorithms 
 and slowly move into more advanced topics like neural networks.
 
 # What You’ll Learn
@@ -213,3 +219,5 @@ The goal usually when we undergo a cluster analysis is either:
  if we believe there is a wide variation in the behaviors of different subgroups.
  An example of that is clustering patients into different subgroups and build a model
  for each subgroup to predict the probability of the risk of having heart attack.
+
+## Neural Networks
