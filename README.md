@@ -22,7 +22,7 @@ and [Neural Networks](https://techwithtim.net/tutorials/python-neural-networks/)
 
 * Unsupervised
   * [K-Means Clustering](#k-means-clustering)
-  * Neural Networks
+  * [Neural Networks](#neural-networks)
   * Conventional Neural Networks
 
 # Pre-requisites
@@ -207,7 +207,7 @@ what section our point is in and assign it to that class.
 > Reduce dimensionality either by using PCA on the feature data, or by using “spectral clustering” 
 > to modify the clustering algorithm as explained below.
 
-## Applications of K-Means Clustering
+### Applications of K-Means Clustering
 K-Means algorithm is very popular and used in a variety of applications such as **market segmentation**,
 **document clustering**, **image segmentation**, **image compression**, etc.
 
