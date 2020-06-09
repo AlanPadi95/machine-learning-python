@@ -7,7 +7,7 @@ machine learning with python.
 </p>
 
 It will start by introducing some basic machine learning algorithms 
-and slowly move into more advanced topics like neural networks.
+and slowly move into more advanced topics.
 
 # What You’ll Learn
 This series is packed full of valuable information. 
@@ -22,8 +22,6 @@ and [Neural Networks](https://techwithtim.net/tutorials/python-neural-networks/)
 
 * Unsupervised
   * [K-Means Clustering](#k-means-clustering)
-  * [Neural Networks](#neural-networks)
-  * Conventional Neural Networks
 
 # Pre-requisites
 This is NOT a beginner tutorial and I will not be teaching python syntax.
@@ -219,5 +217,3 @@ The goal usually when we undergo a cluster analysis is either:
  if we believe there is a wide variation in the behaviors of different subgroups.
  An example of that is clustering patients into different subgroups and build a model
  for each subgroup to predict the probability of the risk of having heart attack.
-
-## Neural Networks
