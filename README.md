@@ -9,7 +9,7 @@ You will learn and understand the following after this [tutorial](https://techwi
 
 * [Linear Regression](#linear-regression)
 * [K-Nearest Neighbors](#k-nearest-neighbors)
-* Support Vector Machines
+* [Support Vector Machines](#support-vector-machines)
 * K-Means
 * Neural Networks
 * Conventional Neural Networks
@@ -60,6 +60,7 @@ It can also be put to service evaluating trends and forecasting data in a variet
 We can use linear regression to solve a few of our day-to-day problems related to supporting decision making, 
 minimizing errors, increasing operational efficiency, discovering new insights, and creating predictive analytics.
 
+
  ## K-Nearest Neighbors
 The k-nearest neighbors (KNN) algorithm is a simple, supervised machine learning algorithm 
 that can be used to solve both classification and regression problems. It’s easy to implement
@@ -100,3 +101,37 @@ by comparing with the persons having similar traits.
 classes like “Will Vote”, “Will not Vote”, “Will Vote to Party ‘Congress’, “Will Vote to Party ‘BJP’.
 
 Other areas in which KNN algorithm can be used are **Speech Recognition**, **Handwriting Detection**, **Image Recognition** and **Video Recognition**.
+
+
+## Support Vector Machines
+A SVM has a large list of applicable uses.
+However, in machine learning it is typically used for classification.
+It is a powerful tool that is a good choice for classifying complicated data
+ with a high degree of dimensions(features). 
+Note that K-Nearest Neighbors does not perform well on high-dimensional data.
+
+### Advantages and Disadvantages of SVM
+
+#### Advantages
+* SVM works relatively well when there is clear margin of separation between classes.
+* SVM is more effective in high dimensional spaces.
+* SVM is effective in cases where number of dimensions is greater than the number of samples.
+* SVM is relatively memory efficient
+
+#### Disadvantages
+* SVM algorithm is not suitable for large data sets.
+* SVM does not perform very well, when the data set has more noise i.e. target classes are overlapping.
+* In cases where number of features for each data point exceeds the number of training data sample , the SVM will under perform.
+* As the support vector classifier works by putting data points, above and below the classifying hyper plane there is no probabilistic explanation for the classification.
+
+### Applications of SVM
+The aim of using SVM is to correctly classify unseen data. SVMs have a number of applications in several fields.
+Some common applications of SVM are:
+
+* **Face detection**: SVMc classify parts of the image as a face and non-face and create a square boundary around the face.
+* **Text and hypertext categorization**: SVMs allow Text and hypertext categorization for both inductive and transductive models. They use training data to classify documents into different categories. It categorizes on the basis of the score generated and then compares with the threshold value.
+* **Classification of images**: Use of SVMs provides better search accuracy for image classification. It provides better accuracy in comparison to the traditional query-based searching techniques.
+* **Bioinformatics**: It includes protein classification and cancer classification. We use SVM for identifying the classification of genes, patients on the basis of genes and other biological problems.
+* **Protein fold and remote homology detection**: Apply SVM algorithms for protein remote homology detection.
+* **Handwriting recognition**: We use SVMs to recognize handwritten characters used widely.
+* **Generalized predictive control(GPC)**: Use SVM based GPC to control chaotic dynamics with useful parameters.
