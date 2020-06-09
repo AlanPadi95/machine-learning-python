@@ -7,12 +7,15 @@ and slowly move into more advanced topics like neural networks.
 This series is packed full of valuable information. 
 You will learn and understand the following after this [tutorial](https://techwithtim.net/tutorials/machine-learning-python/):
 
-* [Linear Regression](#linear-regression)
-* [K-Nearest Neighbors](#k-nearest-neighbors)
-* [Support Vector Machines](#support-vector-machines)
-* [K-Means Clustering](#k-means-clustering)
-* Neural Networks
-* Conventional Neural Networks
+* Supervised
+  * [Linear Regression](#linear-regression)
+  * [K-Nearest Neighbors](#k-nearest-neighbors)
+  * [Support Vector Machines](#support-vector-machines)
+  
+* Unsupervised
+  * [K-Means Clustering](#k-means-clustering)
+  * Neural Networks
+  * Conventional Neural Networks
 
 # Pre-requisites
 This is NOT a beginner tutorial and I will not be teaching python syntax.
