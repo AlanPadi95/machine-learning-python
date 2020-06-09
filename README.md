@@ -3,7 +3,7 @@ This series is designed to teach you the fundamentals of
 machine learning with python.
 
 <p align="center">
-  <img src="img/neural-networks.png">
+  <img src="img/neural-networks.png" width="60%">
 </p>
 
 It will start by introducing some basic machine learning algorithms 
