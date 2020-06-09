@@ -5,13 +5,15 @@ and slowly move into more advanced topics like neural networks.
 
 # What You’ll Learn
 This series is packed full of valuable information. 
-You will learn and understand the following after this [tutorial](https://techwithtim.net/tutorials/machine-learning-python/):
+You will learn and understand the following after these tutorials for 
+[Machine Learning basic algorithms](https://techwithtim.net/tutorials/machine-learning-python/)
+and [Neural Networks](https://techwithtim.net/tutorials/python-neural-networks/):
 
 * Supervised
   * [Linear Regression](#linear-regression)
   * [K-Nearest Neighbors](#k-nearest-neighbors)
   * [Support Vector Machines](#support-vector-machines)
-  
+
 * Unsupervised
   * [K-Means Clustering](#k-means-clustering)
   * Neural Networks

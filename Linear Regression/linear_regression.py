@@ -8,7 +8,7 @@ from matplotlib import style
 import pickle
 
 # Read the data from the csv to create the model
-data = pd.read_csv("data/student-mat.csv", sep=";")
+data = pd.read_csv("student-mat.csv", sep=";")
 data = data[["G1", "G2", "G3", "studytime", "failures", "absences"]]
 
 #This will print out the first 5 students in our data frame.
@@ -51,11 +51,11 @@ for _ in range(10000):
     if acc > best:
         print("[Accuracy,", acc,"] [Try, ", _ ,"]")
         best = acc
-        with open("data/studentmodel.pickle", "wb") as f:
+        with open("studentmodel.pickle", "wb") as f:
             pickle.dump(linear, f)
 
 # LOAD BEST MODEL
-pickle_in = open("data/studentmodel.pickle", "rb")
+pickle_in = open("studentmodel.pickle", "rb")
 linear = pickle.load(pickle_in)
 
 print("-------------------------")
