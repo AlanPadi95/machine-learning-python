@@ -10,7 +10,7 @@ You will learn and understand the following after this [tutorial](https://techwi
 * [Linear Regression](#linear-regression)
 * [K-Nearest Neighbors](#k-nearest-neighbors)
 * [Support Vector Machines](#support-vector-machines)
-* K-Means
+* [K-Means Clustering](#k-means-clustering)
 * Neural Networks
 * Conventional Neural Networks
 
@@ -135,3 +135,76 @@ Some common applications of SVM are:
 * **Protein fold and remote homology detection**: Apply SVM algorithms for protein remote homology detection.
 * **Handwriting recognition**: We use SVMs to recognize handwritten characters used widely.
 * **Generalized predictive control(GPC)**: Use SVM based GPC to control chaotic dynamics with useful parameters.
+
+## K-Means clustering
+K Means clustering is an unsupervised learning algorithm that attempts to divide our training data
+into k unique clusters to classify information.
+This means this algorithm does not require labels for given test data. 
+It is responsible for learning the differences between our data points
+and determine what features determining what class.
+
+### How K-Means Clustering Works
+The K-Means clustering algorithm is a classification algorithm that follows the steps outlined below
+to cluster data points together. It attempts to separate each area of our high dimensional space
+into sections that represent each class. When we are using it to predict it will simply find 
+what section our point is in and assign it to that class.
+
+**Step 1**: Randomly pick K points to place K centroids.
+
+**Step 2**: Assign all of the data points to the centroids by distance. The closest centroid to a point is the one it is assigned to.
+
+**Step 3**: Average all of the points belonging to each centroid to find the middle of those clusters (center of mass). Place the corresponding centroids into that position.
+
+**Step 4**: Reassign every point once again to the closest centroid.
+
+**Step 5**: Repeat steps 3-4 until no point changes which centroid it belongs to.
+
+### Advantages and Disadvantages of K-Means Clustering
+
+#### Advantages
+* Relatively simple to implement.
+* Scales to large data sets.
+* Guarantees convergence.
+* Can warm-start the positions of centroids.
+* Easily adapts to new examples.
+* Generalizes to clusters of different shapes and sizes, such as elliptical clusters.
+
+#### Disadvantages
+
+* Choosing manually.
+> Use the “Loss vs. Clusters” plot to find the optimal (k), as discussed in Interpret Results.
+
+* Being dependent on initial values.
+> For a low , you can mitigate this dependence by running k-means several times with different initial values
+> and picking the best result.
+> As  increases, you need advanced versions of k-means to pick better values of the initial centroids (called k-means seeding).
+> For a full discussion of k- means seeding see, 
+> A Comparative Study of Efficient Initialization Methods for the K-Means Clustering Algorithm 
+> by M. Emre Celebi, Hassan A. Kingravi, Patricio A. Vela.
+
+
+* Clustering data of varying sizes and density.
+> k-means has trouble clustering data where clusters are of varying sizes and density. 
+> To cluster such data, you need to generalize k-means as described in the Advantages section.
+
+* Clustering outliers.
+> Centroids can be dragged by outliers, or outliers might get their own cluster instead of being ignored.
+> Consider removing or clipping outliers before clustering.
+
+* Scaling with number of dimensions.
+> As the number of dimensions increases, a distance-based similarity measure converges to a constant value between any given examples.
+> Reduce dimensionality either by using PCA on the feature data, or by using “spectral clustering” 
+> to modify the clustering algorithm as explained below.
+
+## Applications of K-Means Clustering
+K-Means algorithm is very popular and used in a variety of applications such as **market segmentation**,
+**document clustering**, **image segmentation**, **image compression**, etc.
+
+The goal usually when we undergo a cluster analysis is either:
+
+* Get a meaningful intuition of the structure of the data we’re dealing with.
+
+* Cluster-then-predict where different models will be built for different subgroups
+ if we believe there is a wide variation in the behaviors of different subgroups.
+ An example of that is clustering patients into different subgroups and build a model
+ for each subgroup to predict the probability of the risk of having heart attack.
