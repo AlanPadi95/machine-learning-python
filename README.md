@@ -23,8 +23,8 @@ This is NOT a beginner tutorial and I will not be teaching python syntax.
 # Requirements
 
 To make this tutorial more easy, there are a few ways to setup the environment depending of your Operative System:
-* [Windows](https://gist.github.com/marcelotm23/461540ed5b7a19277dc24432e2ef3d3c/)
-* [MacOSX](https://gist.github.com/AlanPadi95/73f1baa187047d9ba7fc22ef0f2f7537)
+* [Windows](https://gist.github.com/marcelotm23/461540ed5b7a19277dc24432e2ef3d3c/) + PowerShell
+* [MacOSX](https://gist.github.com/AlanPadi95/73f1baa187047d9ba7fc22ef0f2f7537) + Ansible
 
 # Conclusions
 
