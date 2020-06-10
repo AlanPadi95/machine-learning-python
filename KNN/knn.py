@@ -13,7 +13,7 @@ import numpy as np
 from sklearn import linear_model, preprocessing
 
 # Loading Data
-data = pd.read_csv("car.data")
+data = pd.read_csv("KNN/car.data")
 print(data.head())
 
 """
